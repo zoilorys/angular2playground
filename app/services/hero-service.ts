@@ -1,9 +1,10 @@
 import { Injectable } from 'angular2/core';
 
+import { Hero } from '../interfaces/common';
+
 @Injectable()
 export class HeroService {
-	getHeroes() {
-		return [
+	private heroes: Hero[] = [
 			{ "id": 11, "name": "Mr. Nice" },
 			{ "id": 12, "name": "Narco" },
 			{ "id": 13, "name": "Bombasto" },
@@ -15,5 +16,14 @@ export class HeroService {
 			{ "id": 19, "name": "Magma" },
 			{ "id": 20, "name": "Tornado" }
 		];
+	
+	private heroesPromise = Promise.resolve(this.heroes);
+	
+	public getHeroes(): Promise<Hero[]>{
+		return this.heroesPromise;
+	}
+	
+	public getHero(id: number): Promise<Hero>{
+		return this.heroesPromise.then(heroes => heroes.filter(hero => hero.id === id)[0]);
 	}
 }

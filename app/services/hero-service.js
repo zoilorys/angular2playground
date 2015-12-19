@@ -18,9 +18,7 @@ System.register(['angular2/core'], function(exports_1) {
         execute: function() {
             HeroService = (function () {
                 function HeroService() {
-                }
-                HeroService.prototype.getHeroes = function () {
-                    return [
+                    this.heroes = [
                         { "id": 11, "name": "Mr. Nice" },
                         { "id": 12, "name": "Narco" },
                         { "id": 13, "name": "Bombasto" },
@@ -32,6 +30,13 @@ System.register(['angular2/core'], function(exports_1) {
                         { "id": 19, "name": "Magma" },
                         { "id": 20, "name": "Tornado" }
                     ];
+                    this.heroesPromise = Promise.resolve(this.heroes);
+                }
+                HeroService.prototype.getHeroes = function () {
+                    return this.heroesPromise;
+                };
+                HeroService.prototype.getHero = function (id) {
+                    return this.heroesPromise.then(function (heroes) { return heroes.filter(function (hero) { return hero.id === id; })[0]; });
                 };
                 HeroService = __decorate([
                     core_1.Injectable(), 

@@ -5,8 +5,8 @@ import { ListService } from '../../services/list-service';
 
 @Component({
 	selector: 'data-list',
-	templateUrl: 'app/components/list/list.template.html',
 	styleUrls: ['app/styles/list.css'],
+	templateUrl: 'app/components/list/list.template.html',
 	directives: [ListItemComponent],
 	providers: [ListService]
 })

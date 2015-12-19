@@ -6,8 +6,8 @@ import { Hero } from '../../interfaces/common';
 
 @Component({
 	selector: 'my-app',
-	styleUrls:['app/styles/app.css'],
-	templateUrl: 'app/components/app/app.template.html',
+	styleUrls:['http://rawgit.com/zoilorys/angular2playground/gh-pages/app/styles/app.css'],
+	templateUrl: 'http://rawgit.com/zoilorys/angular2playground/gh-pages/app/components/app/app.template.html',
 	directives: [HeroDetailComponent],
 	providers: [HeroService]
 })

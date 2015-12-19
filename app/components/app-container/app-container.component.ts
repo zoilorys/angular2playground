@@ -5,8 +5,8 @@ import { HomeComponent, AppComponent, ListComponent, HeroDetailComponent } from 
 
 @Component({
 	selector: 'app-container',
-	styleUrls: ['app/styles/main.css'],
-	templateUrl: 'app/components/app-container/app-container.template.html',
+	styleUrls: ['http://rawgit.com/zoilorys/angular2playground/gh-pages/app/styles/main.css'],
+	templateUrl: 'http://rawgit.com/zoilorys/angular2playground/gh-pages/app/components/app-container/app-container.template.html',
 	directives: [ROUTER_DIRECTIVES]
 })
 @RouteConfig([

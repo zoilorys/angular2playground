@@ -19,7 +19,7 @@ import { Component } from 'angular2/core';
 			height: 20%;
 		}
 	`],
-	templateUrl: 'app/components/home-page/home-page.template.html'
+	templateUrl: 'http://rawgit.com/zoilorys/angular2playground/gh-pages/app/components/home-page/home-page.template.html'
 })
 export class HomeComponent {
 	

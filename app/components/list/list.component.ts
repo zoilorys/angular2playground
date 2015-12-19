@@ -5,8 +5,8 @@ import { ListService } from '../../services/list-service';
 
 @Component({
 	selector: 'data-list',
-	templateUrl: 'app/components/list/list.template.html',
-	styleUrls: ['app/styles/list.css'],
+	templateUrl: 'http://rawgit.com/zoilorys/angular2playground/gh-pages/app/components/list/list.template.html',
+	styleUrls: ['http://rawgit.com/zoilorys/angular2playground/gh-pages/app/styles/list.css'],
 	directives: [ListItemComponent],
 	providers: [ListService]
 })

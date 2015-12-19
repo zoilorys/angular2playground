@@ -1,0 +1,10 @@
+<div class="container">
+	<div class="panel">
+		<button (click)="shuffle()">
+			SHUFFLE
+		</button>
+	</div>
+	<div class="list-container">
+			<list-item class="list-item" *ngFor="#item of list" [data]="item"></list-item>
+	</div>
+</div>

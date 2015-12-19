@@ -1,0 +1,53 @@
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.panel {
+	padding: 10px;
+	width: 100%;
+	height: 40px;
+	background: #cfcfcf;
+	box-shadow:  0 2px 2px #444444;
+}
+
+.panel button {
+	display: block;
+	width: 20%;
+	height: 40px;
+	line-height: 38px;
+	background: #118866;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border: 1px solid #118866;
+	border-radius: 10px;
+	box-shadow: 0 2px 2px #444444;
+}
+
+.list-container {
+	width: 100%;
+	position: relative;
+}
+
+.list-container .list-item {
+	margin: 10px;
+	display: inline-block;
+	line-height: 78px;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	border: 1px solid lightseagreen;
+	border-radius: 20px;
+	background: lightseagreen;
+}
+
+.panel button:focus {
+	outline-width: 0;
+}
+
+.panel button:active {
+	border: none;
+	box-shadow: none;
+	transform: translate(0px, 2px);
+	-webkit-transform: translate(0px, 2px);
+}

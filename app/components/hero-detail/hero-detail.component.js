@@ -26,7 +26,7 @@ System.register(['angular2/core'], function(exports_1) {
                 HeroDetailComponent = __decorate([
                     core_1.Component({
                         selector: 'hero-detail',
-                        templateUrl: 'app/components/hero-detail/hero-detail.template.html'
+                        templateUrl: 'http://rawgit.com/zoilorys/angular2playground/gh-pages/app/components/hero-detail/hero-detail.template.html'
                     }), 
                     __metadata('design:paramtypes', [])
                 ], HeroDetailComponent);

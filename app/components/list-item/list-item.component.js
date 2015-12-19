@@ -26,7 +26,7 @@ System.register(['angular2/core'], function(exports_1) {
                 ListItemComponent = __decorate([
                     core_1.Component({
                         selector: 'list-item',
-                        templateUrl: 'app/components/list-item/list-item.template.html'
+                        templateUrl: 'http://rawgit.com/zoilorys/angular2playground/gh-pages/app/components/list-item/list-item.template.html'
                     }), 
                     __metadata('design:paramtypes', [])
                 ], ListItemComponent);

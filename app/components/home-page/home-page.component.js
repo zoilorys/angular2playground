@@ -23,7 +23,7 @@ System.register(['angular2/core'], function(exports_1) {
                     core_1.Component({
                         selector: 'home-page',
                         styles: ["\n\t\th1 {\n\t\t\ttext-align: center;\n\t\t}\n\t\t\n\t\t.logo-container {\n\t\t\tdisplay: flex;\n\t\t\twidth: 100%,\n\t\t\tjustify-content: center;\n\t\t}\n\t\t\n\t\t#logo {\n\t\t\tmargin: 0px auto;\n\t\t\twidth: 30%;\n\t\t\theight: 20%;\n\t\t}\n\t"],
-                        templateUrl: 'app/components/home-page/home-page.template.html'
+                        templateUrl: 'http://rawgit.com/zoilorys/angular2playground/gh-pages/app/components/home-page/home-page.template.html'
                     }), 
                     __metadata('design:paramtypes', [])
                 ], HomeComponent);

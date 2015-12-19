@@ -28,8 +28,8 @@ System.register(['angular2/core', 'angular2/router', '../index'], function(expor
                 AppContainerComponent = __decorate([
                     core_1.Component({
                         selector: 'app-container',
-                        styleUrls: ['app/styles/main.css'],
-                        templateUrl: 'app/components/app-container/app-container.template.html',
+                        styleUrls: ['http://rawgit.com/zoilorys/angular2playground/gh-pages/app/styles/main.css'],
+                        templateUrl: 'http://rawgit.com/zoilorys/angular2playground/gh-pages/app/components/app-container/app-container.template.html',
                         directives: [router_1.ROUTER_DIRECTIVES]
                     }),
                     router_1.RouteConfig([

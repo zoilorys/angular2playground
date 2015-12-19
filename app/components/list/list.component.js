@@ -32,8 +32,8 @@ System.register(['angular2/core', '../list-item/list-item.component', '../../ser
                 ListComponent = __decorate([
                     core_1.Component({
                         selector: 'data-list',
-                        templateUrl: 'app/components/list/list.template.html',
-                        styleUrls: ['app/styles/list.css'],
+                        templateUrl: 'http://rawgit.com/zoilorys/angular2playground/gh-pages/app/components/list/list.template.html',
+                        styleUrls: ['http://rawgit.com/zoilorys/angular2playground/gh-pages/app/styles/list.css'],
                         directives: [list_item_component_1.ListItemComponent],
                         providers: [list_service_1.ListService]
                     }), 

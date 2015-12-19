@@ -31,8 +31,8 @@ System.register(['angular2/core', '../hero-detail/hero-detail.component', '../..
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        styleUrls: ['app/styles/app.css'],
-                        templateUrl: 'app/components/app/app.template.html',
+                        styleUrls: ['http://rawgit.com/zoilorys/angular2playground/gh-pages/app/styles/app.css'],
+                        templateUrl: 'http://rawgit.com/zoilorys/angular2playground/gh-pages/app/components/app/app.template.html',
                         directives: [hero_detail_component_1.HeroDetailComponent],
                         providers: [hero_service_1.HeroService]
                     }), 
